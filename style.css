@@ -1,0 +1,50 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    height: 100%;
+}
+
+.wrapper{
+    max-width: 1300px;
+    height: 7513px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.menubar{
+    background-color: rgba(255, 255, 255, .5);
+    position: fixed;
+    height: 128px;
+    width: 100%;
+}
+
+.menu-back{
+    background-color: white;
+    height: 128px;
+}
+
+.menubar .logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0 auto;
+    width: 136px;
+    height: auto;
+}
+
+.btn-group{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    height: 128px;
+}
+
+.btn-bar{
+    margin-left: 56px;
+}
+
